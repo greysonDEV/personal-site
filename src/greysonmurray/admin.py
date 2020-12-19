@@ -1,3 +1,8 @@
-from django.contrib import admin
+"""
+src/greysonmurray/admin.py
+"""
 
-# Register your models here.
+from django.contrib import admin
+from greysonmurray.models import Project
+
+admin.site.register(Project)
